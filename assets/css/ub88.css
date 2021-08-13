@@ -904,7 +904,10 @@ section.courses .owl-carousel button.active {
 section.video {
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 0px;
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 section.video .left-content {
@@ -1615,6 +1618,17 @@ footer p a:hover {
 .shiny {
     color: #EF490D;
     background: -webkit-gradient(linear, left top, left bottom, from(#EF490D), to(#EF490D));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    position: relative;
+    text-transform: uppercase;
+}
+.yellowText {
+    color: yellow;
+    background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(yellow));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
