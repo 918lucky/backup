@@ -12,6 +12,8 @@ fetch("https://raw.githubusercontent.com/918lucky/test/main/918lucky.json")
                 document.querySelector("#PlayBoyLink").href = data.PlayBoyLink;
                 document.querySelector("#a1slotLink").href = data.a1slotLink;
                 document.querySelector("#xe88Link").href = data.xe88Link;
+                document.querySelector("#myBtnWA").href = data.whatsAppLink;
+                document.querySelector("#myBtnTG").href = data.telegramLink;
                 document.querySelector("#visionTitle1").innerText = data.visionTitle1;
                 document.querySelector("#visionText1").innerText = data.visionText1;
                 document.querySelector("#visionTitle2").innerText = data.visionTitle2;
@@ -24,7 +26,5 @@ fetch("https://raw.githubusercontent.com/918lucky/test/main/918lucky.json")
                 document.querySelector("#visionText5").innerText = data.visionText5;
                 document.querySelector("#visionTitle6").innerText = data.visionTitle6;
                 document.querySelector("#visionText6").innerText = data.visionText6;
-                document.querySelector("#myBtnWA").href = data.whatsAppLink;
-                document.querySelector("#myBtnTG").href = data.telegramLink;
                 document.querySelector("#youTubeVideoLink").src = data.youTubeVideoLink;
             })
