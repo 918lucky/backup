@@ -482,8 +482,14 @@ section.features .col-4 {
 
 }
 
-
-
+@media screen and (max-width: 425px) {
+body{
+    background-image: url(../images/casino-background-2-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+}
 /* Why Choosing Us */
 body {
     background-image: url(../images/casino-background-2.jpg);
@@ -495,25 +501,25 @@ section.why-us {
     
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 section.contact-us {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 section.payment-methods {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 section.vision-mission {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 #tabs {
@@ -816,8 +822,7 @@ section.coming-soon form button {
 section.courses {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
-    padding: 0px 30px 100px 30px;
+    padding-bottom: 30px;
 }
 
 section.courses .item img {
@@ -1466,7 +1471,7 @@ img.mfp-img {
 section.contact {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 
