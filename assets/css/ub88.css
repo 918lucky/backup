@@ -482,19 +482,12 @@ section.features .col-4 {
 
 }
 
-@media screen and (max-width: 425px) {
-body{
-    background-image: url(../images/casino-background-2-mobile.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-}
+
 /* Why Choosing Us */
 body {
     background-image: url(../images/casino-background-2.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 section.why-us {
