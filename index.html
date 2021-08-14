@@ -341,5 +341,20 @@
                 checkSection();
             });
         </script>
+    <script>
+        var mybuttonTG = document.getElementById("myBtnTG");
+        var mybuttonWA = document.getElementById("myBtnWA");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybuttonTG.style.display = "block";
+                mybuttonWA.style.display = "block";
+            } else {
+                mybuttonTG.style.display = "none";
+                mybuttonWA.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
