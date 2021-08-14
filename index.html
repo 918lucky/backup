@@ -215,8 +215,14 @@
         </section>
         <section class="section contact" data-section="section6">
             <div class="container" align="center">
-                <img src="assets/images/progessive-jackpot-2.gif" style="width:75%;">
-            </div>
+                <picture>
+                    <source media="(orientation: landscape)"
+                            srcset="assets/images/progessive-jackpot-2.gif" width="75%">
+                    <source media="(orientation: portrait)"
+                            srcset="assets/images/progessive-jackpot-2.gif" width="100%">
+                    <img src="assets/images/progessive-jackpot-2.gif" alt="a cute kitten" width="75%">
+                </picture>
+                </div>
         </section>
         <!--
     <section class="section contact" data-section="section6">
